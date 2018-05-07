@@ -1,0 +1,117 @@
+	a:link{color: white;}
+	a:visited{color: white;}
+	a:hover{color: white;}
+	a:active{color: white;}
+	a { text-decoration:none }
+
+header {
+	color: white;
+	margin: 5px;
+	margin-left: 720px;
+	padding: 5px;
+}
+
+nav {
+	color: white;
+	margin: 10px;
+    }
+
+nav ul {
+	list-style: none;
+	text-align: center;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	padding: 10px 0;
+}
+
+nav ul li {
+	display: inline;
+	text-transform: uppercase;
+	padding: 0 10px;
+	letter-spacing: 10px;
+}
+
+nav ul li a {
+	test-decoration: none;
+	color: white;
+}
+
+aside#left{
+	width: 250px;
+	margin-top: 40px;
+	float: left;
+}
+
+#left h4 {
+	color: white;
+	font-size: 20px;
+}
+
+#left ul {
+		font-size: 20px;
+		color: white;
+		list-style: none;
+		text-align: center;
+}
+
+#left ul li {
+	background: #2f2f2f;
+	line-height: 75px;
+	border: 1px solid #fff;
+}
+
+#left ul li a{
+	text-decoration: none;
+	color: #FFF;
+	display block;
+}
+#left ul li a:hover {
+	background: #d40203;
+}
+
+#left ul li#active{
+	background: #d40203;
+}
+
+#main {
+	color: #FFF;
+	overflow: hidden;
+	float: left;
+	margin-left: 70px;
+	margin-top: 40px;
+	border: 1px solid #fff;
+}
+#article1 {
+	color: #FFF;
+	overflow: hidden;
+	float: left;
+}
+#right{
+	color: #FFF;
+}
+
+#BGM { 
+	fontcolor: #FFF;
+	width: 250px;
+	margin-top: 40px;
+	margin-right: 40px;
+	float: right;
+}
+#List {
+	width: 290px;
+	float: right;
+	margin-top: 10px;
+}
+
+div#nav1
+{
+	background-color: #2f2f2f;
+	color: white;
+	font-size: 20px;
+	width: 280px;
+	height: 400px;
+	float: left;
+	margin-left: 70px;
+	border: 4px dotted white;
+	border-radius: 5px;
+}
