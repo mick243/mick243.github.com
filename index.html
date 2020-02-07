@@ -1,4 +1,20 @@
 ﻿<!DOCTPE html>
+<script>
+	function move(id)
+	{
+		var nod = document.getElementByld(id);
+		if (nod != null)
+		{
+			if(!nod.classList.contains('begin') && !nod.classList.contains('end))
+			{
+				nod.classList.add('end');
+			}
+			else
+			   {
+			   nod.classList.toggle('begin');
+			   nod.classList.toggle('end);
+			   }
+</script>
 <HTML>
 <head>
 <meta charset="utf-8">
@@ -94,7 +110,10 @@
 		background-color:#00ff00;
 		position:relative;
 		margin:0px; pedding:0px;
-	  }	  
+	  }	
+	  #im1 { position:absolute; transition: 1.5s;}
+	  #im1.begin { left: 50px; top:200px; transform: rotate(0deg);}
+	  #im1.end   { left: 50px; tom:200px; transform: rotate(180deg);}
   </style>
   <link type="text/css" rel="stylesheet" href="mystyle.css">
 </head>
@@ -120,6 +139,7 @@
 <div id="wrap">
 	<div id="content">
 		<h1>IAM Life your life<h1>
+		<img id="img1" class="begin" src="img/test.png" hover="move(img1)"/>
 	</div>
 	<div id="banner1">
 		<h1>IAM</h1>
