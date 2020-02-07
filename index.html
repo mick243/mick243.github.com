@@ -1,5 +1,21 @@
 ﻿<!DOCTPE html>
 <HTML>
+<script>
+	function move(id)
+	{
+		var nod = document.getElementByld(id);
+		if (nod != null)
+		{
+			if(!nod.classList.contains('begin') && !nod.classList.contains('end))
+			{
+				nod.classList.add('end');
+			}
+			else
+			   {
+			   nod.classList.toggle('begin');
+			   nod.classList.toggle('end);
+			   }
+</script>
 <head>
 <meta charset="utf-8">
   <style>
@@ -58,22 +74,6 @@
 		margin:0px 20px;
 	  }
 	#content {
-		<script>
-	function move(id)
-	{
-		var nod = document.getElementByld(id);
-		if (nod != null)
-		{
-			if(!nod.classList.contains('begin') && !nod.classList.contains('end))
-			{
-				nod.classList.add('end');
-			}
-			else
-			   {
-			   nod.classList.toggle('begin');
-			   nod.classList.toggle('end);
-			   }
-</script>
 		width:50%; height:520px;
 		float:left;
 		color:#ffffff;
