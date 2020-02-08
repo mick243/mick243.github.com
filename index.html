@@ -95,25 +95,6 @@
 		position:relative;
 		margin:0px; pedding:0px;
 	  }
-	    <script>
-	function move(id)
-	{
-		var nod = document.getElementByld(id);
-		if (nod != null)
-		{
-			if(!nod.classList.contains('begin') && !nod.classList.contains('end'))
-			{
-				nod.classList.add('end');
-			}
-			else
-			   {
-			   nod.classList.toggle('begin');
-			   nod.classList.toggle('end');
-			   }
-</script>
-	  #img1 { position:absolute; transition: 1.5s;}
-	  #img1.begin { left: 50px; top:200px; transform: rotate(0deg);}
-	  #img1.end   { left: 50px; top:200px; transform: rotate(180deg);}
   </style>
   <link type="text/css" rel="stylesheet" href="mystyle.css">
 </head>
@@ -139,7 +120,9 @@
 <div id="wrap">
 	<div id="content">
 		<h1>IAM Life your life<h1>
-			<iframe src="videoplayback.mp4&autoplay=1&loop1" frameborder="0" allowfullscreen></iframe>
+			<video>
+			<source src="videoplayback.mp4&autoplay=1&loop1" border="0" allowfullscreen>
+			</video>
 	</div>
 	<div id="banner1">
 		<h1>IAM</h1>
