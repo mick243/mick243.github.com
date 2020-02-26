@@ -1,1 +1,5 @@
 
+a:link{color: black;}
+	a:visited{color: black;}
+	a:active{color: black;}
+	a { text-decoration:none }
