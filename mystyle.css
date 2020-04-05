@@ -34,6 +34,7 @@ h1 {
 #header .logo_text {
     position: absolute;
     font-family: 'Roboto', Roboto-Regular;
+    font-size: 16px;
     top: -4px;
     left: 40%;
     line-height: 5px;
