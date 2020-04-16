@@ -52,6 +52,8 @@ h1 {
     left: 300px;
     line-height: 5px;
     color: #000000;
+    min-width: 180px;
+    min-height: 36px;
 }
 
 #nav {
@@ -112,6 +114,7 @@ h1 {
     background-position: center center;
     background-size: contain;
     object-fit: cover;
+    min-width: 600px;
     max-width: 1920px;
     max-height: 1080px;
     /*cover video background */
