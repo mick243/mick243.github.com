@@ -115,7 +115,7 @@ h1 {
     background-size: contain;
     object-fit: cover;
     max-width: 1920px;
-    max-height: 1080px;
+    m-height: 1080px;
     /*cover video background */
     z-index: 3;
 }
